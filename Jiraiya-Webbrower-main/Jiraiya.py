@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QShortcut, QLabel, QHBoxLayou
 from PyQt5.QtGui import *
 from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtPrintSupport import *
+from tab import *
 import sys
 from PyQt5 import QtGui
 from playsound import playsound
