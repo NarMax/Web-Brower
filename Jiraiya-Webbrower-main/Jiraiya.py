@@ -4,7 +4,6 @@ from PyQt5.QtWidgets import QApplication, QWidget, QShortcut, QLabel, QHBoxLayou
 from PyQt5.QtGui import *
 from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtPrintSupport import *
-from img.tab import *
 import sys
 from PyQt5 import QtGui
 from playsound import playsound
@@ -39,7 +38,6 @@ class MainWindow(QMainWindow):
 		next_btn.triggered.connect(lambda: self.tabs.currentWidget().forward())
 		navtb.addAction(next_btn)
 		
-		add_tab()
 		reload_btn = QAction("Reload", self)
 		reload_btn.setStatusTip("Reload page")
 		reload_btn.setIcon(QIcon("img/Refresh.png"))
